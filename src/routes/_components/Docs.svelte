@@ -141,3 +141,10 @@ addToast("This toast will display for about 11,574 days.", undefined, 999999999)
   To create custom toast item or cancel icon components, refer to the original components' source
   code.
 </p>
+
+<style>
+  pre {
+    max-width: 100%;
+    overflow-y: auto;
+  }
+</style>
