@@ -1,6 +1,14 @@
 {
   "name": "as-toast",
+  "author": {
+    "name": "Antonio Sarcevic"
+  },
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarcevicAntonio/as-toast.git"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "svelte-kit dev",
     "package": "svelte-kit package",
