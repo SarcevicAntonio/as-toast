@@ -33,3 +33,14 @@
 >
 <br />
 
+<style>
+  button {
+    border-radius: 0.5em;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 0.5em 1em;
+    min-height: 48px;
+    margin: 1em 0;
+    cursor: pointer;
+  }
+</style>
