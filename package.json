@@ -9,6 +9,12 @@
     "url": "git+https://github.com/SarcevicAntonio/as-toast.git"
   },
   "license": "MIT",
+  "keywords": [
+    "Svelte",
+    "Toasts",
+    "Notification",
+    "Component"
+  ],
   "scripts": {
     "dev": "svelte-kit dev",
     "package": "svelte-kit package",
