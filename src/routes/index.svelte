@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import Demo from "./_components/Demo.svelte";
   import Docs from "./_components/Docs.svelte";
 </script>

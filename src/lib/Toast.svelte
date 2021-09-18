@@ -1,7 +1,6 @@
 <script lang="ts">
   import { onMount, SvelteComponent } from "svelte";
   import { fade, fly } from "svelte/transition";
-  import Cancel from "./Cancel.svelte";
   import type { Toast } from "./toastStore";
   import { removeToast } from "./toastStore";
 

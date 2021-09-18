@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { addToast } from "$lib";
 </script>
 

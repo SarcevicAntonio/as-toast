@@ -1,0 +1,39 @@
+name: Build and Deploy Lib and Docs
+on:
+  release:
+    types: [published]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14.x"
+          registry-url: "https://registry.npmjs.org"
+      
+      - name: Install Dependencies
+          run: npm ci
+
+      - name: Build Lib
+        run: npm run package
+
+      - name: Publish Lib
+        run: |
+          cd package
+          npm version ${{ github.event.release.tag_name }}
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Build Docs
+        run: npm run build
+
+      - name: Publish Docs
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: docs
+          folder: build
