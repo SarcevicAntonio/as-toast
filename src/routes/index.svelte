@@ -10,3 +10,7 @@
 <Demo />
 
 <Docs />
+
+<p>Made with ❤️ by <a href="https://www.sarcevic.dev/">Antonio Sarcevic</a></p>
+
+<p>© {new Date().getFullYear()} Antonio Sarcevic</p>
