@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Demo from "./_components/Demo.svelte";
+  import Docs from "./_components/Docs.svelte";
+</script>
+
+<h1>AS Toasts</h1>
+
+<p>Simple and customizable toast notifications for Svelte</p>
+
+<Demo />
+
+<Docs />

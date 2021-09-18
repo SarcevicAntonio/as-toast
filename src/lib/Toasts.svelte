@@ -1,0 +1,33 @@
+<script lang="ts">
+  import type { SvelteComponent } from "svelte";
+  import Cancel from "./Cancel.svelte";
+  import Toast from "./Toast.svelte";
+  import { toasts } from "./toastStore";
+
+  export let toastComponent = Toast;
+  export let cancelIcon: typeof SvelteComponent = Cancel;
+</script>
+
+<ul>
+  {#each $toasts as toast (toast.id)}
+    <svelte:component this={toastComponent} {toast} {cancelIcon} />
+  {/each}
+</ul>
+
+<style>
+  ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+    bottom: var(--as-toast-bottom, 1em);
+    right: 50%;
+    transform: translate(50%, 0%);
+
+    margin: 0;
+    padding: 0;
+  }
+</style>
