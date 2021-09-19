@@ -43,8 +43,8 @@ addToast("Just a simple 'info' toast", "info");
 </pre>
 
 <p>
-  <strong>Set the toast type</strong> with the second parameter. Currently there is only two types: 'info'
-  and 'warn'. By default, toasts will be of type 'info'.
+  <strong>Set the toast type</strong> with the second parameter. Currently, there is only two types:
+  'info' and 'warn'. By default, toasts will be of type 'info'.
 </p>
 
 <pre>
@@ -70,8 +70,8 @@ addToast("This toast will display for about 11,574 days.", undefined, 999999999)
 
 <p>
   The default <code>&lt;Toast /&gt;</code> item component can be replaced, but is also configurable using
-  CSS Custom Properties. Overwrite the defaults either by setting CSS Custom Properties in a global scope
-  like this:
+  CSS Custom Properties. Overwrite the defaults, either by setting CSS Custom Properties in a global
+  scope like this:
 </p>
 
 <pre>
@@ -128,8 +128,8 @@ addToast("This toast will display for about 11,574 days.", undefined, 999999999)
 <h3>Customizing by replacing Components</h3>
 
 <p>
-  The default <code>&lt;Toast /&gt;</code> item and <code>&lt;Cancel /&gt;</code> icon components
-  can be replaced. Pass in your custom toast item and cancel icon components to the
+  The default toast item and cancel icon components can be replaced. Pass in your custom components
+  to the
   <code>&lt;Toasts /&gt;</code> component.
 </p>
 
@@ -141,8 +141,21 @@ addToast("This toast will display for about 11,574 days.", undefined, 999999999)
 
 <p>
   To create custom toast item or cancel icon components, refer to the original components' source
-  code.
+  code:
 </p>
+
+<ul>
+  <li>
+    <a href="https://github.com/SarcevicAntonio/as-toast/blob/main/src/lib/Toast.svelte">
+      Sourcecode for toast item component
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/SarcevicAntonio/as-toast/blob/main/src/lib/Cancel.svelte">
+      Sourcecode for cancel icon component
+    </a>
+  </li>
+</ul>
 
 <style>
   pre {
