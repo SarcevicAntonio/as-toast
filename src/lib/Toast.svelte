@@ -37,14 +37,14 @@
     font-family: inherit;
     font-weight: 400;
     font-size: 1em;
-    padding: 1em;
+    padding: var(--as-toast-padding, 1em);
     margin-top: 1em;
     min-width: 300px;
     max-width: calc(100vw - 2em);
     border: var(--as-toast-border, 1px solid black);
     border-radius: var(--as-toast-border-radius, 0.5em);
     color: var(--as-toast-color, black);
-    background-color: var(--as-toast-default-background-color, black);
+    backdrop-filter: var(--as-toast-backdrop-filter, none);
     box-shadow: var(
       --as-toast-shadow,
       0 0.3px 1.4px rgba(0, 0, 0, 0.068),
@@ -61,17 +61,18 @@
     border-radius: var(--as-toast-btn-border-radius, 999999999px);
     padding: var(--as-toast-btn-padding, 0.45em);
     border: var(--as-toast-btn-border, 1px solid black);
+    background: var(--as-toast-btn-background, white);
   }
 
   .info {
     color: var(--as-toast-info-color, var(--as-toast-color, black));
     border-color: var(--as-toast-info-border-color, #2786cb);
-    background-color: var(--as-toast-info-background-color, #abd2ef);
+    background: var(--as-toast-info-background, #abd2ef);
   }
 
   .warn {
     color: var(--as-toast-warn-color, var(--as-toast-color, black));
     border-color: var(--as-toast-warn-border-color, #c92626);
-    background-color: var(--as-toast-warn-background-color, #efa9a9);
+    background: var(--as-toast-warn-background, #efa9a9);
   }
 </style>

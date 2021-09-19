@@ -96,10 +96,11 @@ addToast("This toast will display for about 11,574 days.", undefined, 999999999)
 --as-toast-bottom: 1em; /* Distance from bottom of screen */
 
 /* Toast */
+--as-toast-padding: 1em;
 --as-toast-border: 1px solid black;
 --as-toast-border-radius: 0.5em;
 --as-toast-color: black;
---as-toast-default-background-color: black;
+--as-toast-backdrop-filter: none;
 --as-toast-shadow:  0 0.3px 1.4px rgba(0, 0, 0, 0.068),
                     0 0.7px 3.5px rgba(0, 0, 0, 0.098),
                     0 1.4px 7.1px rgba(0, 0, 0, 0.122),
@@ -110,16 +111,17 @@ addToast("This toast will display for about 11,574 days.", undefined, 999999999)
 --as-toast-btn-border-radius: 999999999px;
 --as-toast-btn-padding: 0.45em;
 --as-toast-btn-border: 1px solid black;
+-as-toast-btn-background: white;
 
 /* Type: 'info'*/
 --as-toast-info-color: var(--as-toast-color, black);
 --as-toast-info-border-color: #2786cb;
---as-toast-info-background-color: #abd2ef;
+--as-toast-info-background: #abd2ef;
 
 /* Type: 'warn'*/
 --as-toast-warn-color: var(--as-toast-color, black);
 --as-toast-warn-border-color: #c92626;
---as-toast-warn-background-color: #efa9a9;
+--as-toast-warn-background: #efa9a9;
   </code>
 </pre>
 
