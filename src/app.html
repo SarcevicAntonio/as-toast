@@ -5,14 +5,32 @@
     <link rel="icon" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-      body {
+      html {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
           Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
         font-size: 1.1em;
         line-height: 1.6;
+        scroll-behavior: smooth;
+      }
+      .btn {
+        display: inline-block;
+        border-radius: 0.5em;
+        border: 1px solid gray;
+        background-color: white;
+        padding: 0.5em 1em;
+        margin: 1em 0;
+        cursor: pointer;
+        box-shadow: none;
+        transition: box-shadow 0.4s ease-in-out;
+        font: inherit;
+      }
+      .btn:hover {
+        box-shadow: 0 0.3px 1.4px rgba(0, 0, 0, 0.068), 0 0.7px 3.5px rgba(0, 0, 0, 0.098),
+          0 1.4px 7.1px rgba(0, 0, 0, 0.122), 0 2.9px 14.6px rgba(0, 0, 0, 0.152),
+          0 8px 40px rgba(0, 0, 0, 0.22);
       }
     </style>
-    <title>AS Toast</title>
+    <title>AS Toast 🍞</title>
     <meta name="description" content="Simple and customizable toast notifications for Svelte" />
     %svelte.head%
   </head>
