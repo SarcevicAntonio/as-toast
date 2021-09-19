@@ -18,7 +18,11 @@
 --as-toast-warn-border-color: hsl(0, 68%, 47%, 30%);
 --as-toast-warn-background: hsla(0, 69%, 80%, 0.7);
   `,
+    `/* compact */
+--as-toast-padding: 0.25em 0.5em;
+`,
     `/* Material */
+/* from https://material-components.github.io/material-components-web-catalog/#/component/snackbar */
 --as-toast-padding: 14px 16px;
 --as-toast-border: none;
 --as-toast-border-radius: 4px;
@@ -29,6 +33,33 @@
 --as-toast-info-color: hsla(0,0%,100%,.87);
 --as-toast-warn-background: hsl(0deg 40% 20%);
 --as-toast-warn-color: hsla(0,0%,100%,.87);
+`,
+    `/* Flat */
+--as-toast-border: none;
+--as-toast-shadow: 4px 4px 0px rgba(0, 0, 0, 0.07);
+--as-toast-border-radius: 0px;
+--as-toast-info-background: #F8EFBA;
+--as-toast-warn-background: #F97F51;
+`,
+    `/* Neumorphism */
+/* inspired by Neumorphism.io generator (https://neumorphism.io/) */
+--as-toast-border: none;
+--as-toast-border-radius: 50px;
+--as-toast-box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+--as-toast-btn-border: none;
+--as-toast-btn-background: transparent;
+--as-toast-info-background: linear-gradient(145deg, #cacaca, #f0f0f0);
+--as-toast-warn-background: linear-gradient(145deg, #d79898, #ffb5b5);
+`,
+    `/* Terminal */
+--as-toast-color: lime;
+--as-toast-shadow: none;
+--as-toast-btn-border: 1px solid lime;
+--as-toast-btn-background: transparent;
+--as-toast-info-background: black;
+--as-toast-info-border-color: lime;
+--as-toast-warn-background: #561010;
+--as-toast-warn-border-color: lime;
 `,
   ];
 </script>
