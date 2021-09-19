@@ -7,15 +7,12 @@
     `/* Glassmorphism */
 /* inspired by Glass UI Glassmorphism generator (https://ui.glass/generator/) */
 --as-toast-border: 1px solid rgba(209, 213, 219, 0.3);
---as-toast-border-radius: 12px;
 --as-toast-backdrop-filter: blur(8px);
 --as-toast-shadow:
   0px 1.4px 2.2px rgba(0, 0, 0, 0.028),
   0px 4.7px 7.4px rgba(0, 0, 0, 0.042),
   0px 21px 33px rgba(0, 0, 0, 0.07);
---as-toast-btn-border-radius: 999999999px;
---as-toast-btn-padding: 0.45em;
---as-toast-btn-border: 1px solid black;
+--as-toast-btn-border: none;
 --as-toast-info-border-color: rgba(209, 213, 219, 0.3);
 --as-toast-info-background: rgba(255, 255, 255, 0.7);
 --as-toast-warn-border-color: hsl(0, 68%, 47%, 30%);
