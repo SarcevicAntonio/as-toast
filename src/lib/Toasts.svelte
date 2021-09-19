@@ -15,7 +15,7 @@
       <li animate:flip>
         <svelte:component this={toastComponent} {toast} {cancelIcon} />
       </li>
-      {/each}
+    {/each}
   </ul>
 {/if}
 
