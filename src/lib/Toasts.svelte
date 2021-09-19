@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { SvelteComponent } from "svelte";
+  import { flip } from "svelte/animate";
   import Cancel from "./Cancel.svelte";
   import Toast from "./Toast.svelte";
   import { toasts } from "./toastStore";
@@ -11,8 +12,10 @@
 {#if $toasts.length}
   <ul>
     {#each $toasts as toast (toast.id)}
-      <svelte:component this={toastComponent} {toast} {cancelIcon} />
-    {/each}
+      <li animate:flip>
+        <svelte:component this={toastComponent} {toast} {cancelIcon} />
+      </li>
+      {/each}
   </ul>
 {/if}
 

@@ -18,17 +18,17 @@
   }
 </script>
 
-<li class={toast.type} in:fly={{ y: -600, duration: 400 }} out:fade>
+<div class={toast.type} in:fly={{ y: -600, duration: 400 }} out:fade>
   <span role="status">
     {@html toast.msg}
   </span>
-  <button on:click={removeMyself} aria-label="Button Cancel">
+  <button on:click={removeMyself} aria-label="Cancel Button">
     <svelte:component this={cancelIcon} type={toast.type} />
   </button>
-</li>
+</div>
 
 <style>
-  li {
+  div {
     display: flex;
     width: max-content;
     justify-content: space-between;
@@ -55,7 +55,7 @@
     );
   }
 
-  li button {
+  div button {
     display: flex;
     margin-left: 2em;
     border-radius: var(--as-toast-btn-border-radius, 999999999px);
