@@ -8,6 +8,8 @@
 
 <p>Simple and customizable toast notifications for Svelte</p>
 
+<p>Intended as a replacement for <code>alert()</code>, though in a non-blocking fashion.</p>
+
 <Demo />
 
 <a class="btn" href="#themes">Go to Theme Ideas 🎨</a>
