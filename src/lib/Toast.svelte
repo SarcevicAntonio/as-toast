@@ -1,17 +1,11 @@
 <script lang="ts">
-  import { onMount, SvelteComponent } from "svelte";
+  import type { SvelteComponent } from "svelte";
   import { fade, fly } from "svelte/transition";
   import type { Toast } from "./toastStore";
   import { removeToast } from "./toastStore";
 
   export let toast: Toast;
   export let cancelIcon: typeof SvelteComponent;
-
-  onMount(() => {
-    setTimeout(() => {
-      removeMyself();
-    }, toast.removeAfter);
-  });
 
   function removeMyself() {
     removeToast(toast.id);
