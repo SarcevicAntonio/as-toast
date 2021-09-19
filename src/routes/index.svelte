@@ -1,6 +1,6 @@
 <script lang="ts">
   import Demo from "./_components/Demo.svelte";
-  import Docs from "./_components/Docs.svelte";
+  import Docs from "./_components/Docs.md";
   import Themes from "./_components/Themes.svelte";
 </script>
 
