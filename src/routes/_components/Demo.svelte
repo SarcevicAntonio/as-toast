@@ -2,7 +2,7 @@
   import { addToast } from "$lib";
 </script>
 
-<h2 id="demo">Demo</h2>
+<h2>Demo</h2>
 
 <div class="flex-rw">
   <button
