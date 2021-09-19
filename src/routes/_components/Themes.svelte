@@ -44,8 +44,8 @@
   Next Theme Idea
 </button>
 
-<pre>
-  <code>
+<pre class="language-css">
+  <code class="language-css">
 {themes[themeIndex]}
   </code>
 </pre>
