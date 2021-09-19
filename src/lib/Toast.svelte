@@ -56,6 +56,7 @@
     padding: var(--as-toast-btn-padding, 0.45em);
     border: var(--as-toast-btn-border, 1px solid black);
     background: var(--as-toast-btn-background, white);
+    cursor: pointer;
   }
 
   .info {
