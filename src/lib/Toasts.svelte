@@ -8,11 +8,13 @@
   export let cancelIcon: typeof SvelteComponent = Cancel;
 </script>
 
-<ul>
-  {#each $toasts as toast (toast.id)}
-    <svelte:component this={toastComponent} {toast} {cancelIcon} />
-  {/each}
-</ul>
+{#if $toasts.length}
+  <ul>
+    {#each $toasts as toast (toast.id)}
+      <svelte:component this={toastComponent} {toast} {cancelIcon} />
+    {/each}
+  </ul>
+{/if}
 
 <style>
   ul {
@@ -29,5 +31,8 @@
 
     margin: 0;
     padding: 0;
+
+    height: auto;
+    transition: height 0.4s ease-in-out;
   }
 </style>
