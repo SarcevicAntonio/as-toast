@@ -2,6 +2,12 @@
 
 ### Initial Setup
 
+**Install the package** using npm (or your favorite package manager):
+
+```
+npm i -D as-toast
+```
+
 To **show the toasts**, import and place the `<Toasts />` component
 inside your `src/routes/__layout.svelte` for SvelteKit
 or `src/pages/_layout.svelte` for Routify, like this:
