@@ -25,11 +25,13 @@ npm i -D as-toast
 <!-- App.svelte -->
 <script>
   import { Toasts, addToast } from "as-toast";
-
-  addToast("Hello World");
 </script>
 
 <Toasts />
+
+<button on:click={() => {addToast("Hello World")}}>
+  add toast
+</button>
 ```
 
 **--> [Open quick start in Svelte REPL](https://svelte.dev/repl/ac1ac6289ab948b488fe2f17d122aaac?version=3.42.6)**
