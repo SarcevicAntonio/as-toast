@@ -30,7 +30,7 @@ npm i -D as-toast
 <Toasts />
 
 <button on:click={() => {addToast("Hello World")}}>
-	add toast
+  add toast
 </button>
 ```
 
