@@ -28,12 +28,3 @@ jobs:
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: Build Docs
-        run: npm run build
-
-      - name: Publish Docs
-        uses: JamesIves/github-pages-deploy-action@4.1.5
-        with:
-          branch: docs
-          folder: build
