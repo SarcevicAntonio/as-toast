@@ -4,11 +4,11 @@
   import Themes from "./_components/Themes.svelte";
 </script>
 
-<h1>AS Toast 🍞</h1>
+# AS Toast 🍞
 
-<p>Simple and customizable toast notifications for Svelte</p>
+Simple and customizable toast notifications for Svelte
 
-<p>Intended as a replacement for <code>alert()</code>, though in a non-blocking fashion.</p>
+Intended as a replacement for `alert()`, though in a non-blocking fashion.
 
 <Demo />
 
@@ -20,4 +20,4 @@
 
 <Demo />
 
-<p>Made with ❤️ by <a href="https://www.sarcevic.dev/">Antonio Sarcevic</a>.</p>
+Made with ❤️ by <a href="https://www.sarcevic.dev/" target="_blank">Antonio Sarcevic</a>.

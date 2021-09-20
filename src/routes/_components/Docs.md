@@ -1,4 +1,4 @@
-## Docs
+<h2 id="docs">Docs</h2>
 
 ### Initial Setup
 
