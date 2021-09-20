@@ -39,6 +39,7 @@
     border-radius: var(--as-toast-border-radius, 0.5em);
     color: var(--as-toast-color, black);
     backdrop-filter: var(--as-toast-backdrop-filter, none);
+    -webkit-backdrop-filter: var(--as-toast-backdrop-filter, none);
     box-shadow: var(
       --as-toast-shadow,
       0 0.3px 1.4px rgba(0, 0, 0, 0.068),
