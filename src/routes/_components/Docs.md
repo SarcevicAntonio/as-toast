@@ -14,7 +14,7 @@ or `src/pages/_layout.svelte` for Routify, like this:
 
 ```html
 <script>
-  import { Toasts } from "as-toast";
+	import { Toasts } from 'as-toast';
 </script>
 
 <slot />
@@ -31,25 +31,25 @@ To create or **add a toast** import the `addToast` function from
 `"as-toast"` and call it with a message or any HTML.
 
 ```js
-import { addToast } from "as-toast";
+import { addToast } from 'as-toast';
 
-addToast("Just a simple 'info' toast", "info");
+addToast("Just a simple 'info' toast", 'info');
 ```
 
 **Set the toast type** with the second parameter. Currently, there is only two types:
 'info' and 'warn'. By default, toasts will be of type 'info'.
 
 ```js
-addToast("Just a simple 'info' toast", "info");
+addToast("Just a simple 'info' toast", 'info');
 
-addToast("Just a simple 'warn' toast", "warn");
+addToast("Just a simple 'warn' toast", 'warn');
 ```
 
 **Set the amount of time** in milliseconds the toast will be displayed by setting the
 third parameter. By default, toasts will be displayed for 5000 milliseconds.
 
 ```js
-addToast("This toast will display for about 11,574 days.", undefined, 9001);
+addToast('This toast will display for about 11,574 days.', undefined, 9001);
 ```
 
 ### Customizing with CSS Custom Properties
@@ -60,7 +60,7 @@ scope like this:
 
 ```css
 :root {
-  --as-toast-border-radius: 0; /* gives toasts square shape */
+	--as-toast-border-radius: 0; /* gives toasts square shape */
 }
 ```
 
