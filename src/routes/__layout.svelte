@@ -1,10 +1,10 @@
 <main>
-  <slot />
+	<slot />
 </main>
 
 <style>
-  main {
-    max-width: 75ch;
-    margin: auto;
-  }
+	main {
+		max-width: 75ch;
+		margin: auto;
+	}
 </style>
