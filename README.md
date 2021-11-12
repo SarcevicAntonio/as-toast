@@ -1,10 +1,10 @@
 # AS Toast 🍞 (for Svelte)
 
+![Toast Package that shows of the CSS customization in various themes](https://www.sarcevic.dev/files/blog/toasting-in-svelte/as-toast.png)
+
 Simple and customizable toast notifications for Svelte
 
 Intended as a replacement for `alert()`, though in a non-blocking fashion.
-
-![Image to a warning and a info toast notification.](https://i.imgur.com/FCQkfSe.png)
 
 ## Links
 
