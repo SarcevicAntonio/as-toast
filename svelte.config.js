@@ -12,8 +12,7 @@ const config = {
 	preprocess: [preprocess(), mdsvex(mdsvexConfig)],
 
 	kit: {
-		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte',
+		target: 'body',
 		adapter: staticAdapter()
 	}
 };

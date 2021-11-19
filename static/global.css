@@ -7,6 +7,10 @@ html {
 	background: hsl(161, 100%, 97%);
 	background: linear-gradient(120deg, hsl(281, 100%, 97%) 0%, hsl(161, 100%, 97%) 100%);
 }
+body {
+	max-width: 75ch;
+	margin: auto;
+}
 .btn {
 	display: inline-block;
 	border-radius: 0.5em;
@@ -17,6 +21,15 @@ html {
 	cursor: pointer;
 	box-shadow: none;
 	transition: box-shadow 0.4s ease-in-out;
+	font: inherit;
+}
+input, select {
+	display: inline-block;
+	border-radius: 0.5em;
+	border: 1px solid gray;
+	background-color: white;
+	padding: 0.5em 1em;
+	margin: 1em 0;
 	font: inherit;
 }
 .btn:hover {
