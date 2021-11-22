@@ -6,6 +6,7 @@ html {
 	scroll-behavior: smooth;
 	background: hsl(161, 100%, 97%);
 	background: linear-gradient(120deg, hsl(281, 100%, 97%) 0%, hsl(161, 100%, 97%) 100%);
+	padding: 0 1em;
 }
 body {
 	max-width: 75ch;
@@ -23,7 +24,8 @@ body {
 	transition: box-shadow 0.4s ease-in-out;
 	font: inherit;
 }
-input, select {
+input,
+select {
 	display: inline-block;
 	border-radius: 0.5em;
 	border: 1px solid gray;
