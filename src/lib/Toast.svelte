@@ -28,13 +28,14 @@
 		justify-content: space-between;
 		align-items: center;
 		text-decoration: none;
-		font-family: inherit;
-		font-weight: 400;
-		font-size: 1em;
+
+		font-family: var(--as-toast-font-family, inherit);
+		font-weight: var(--as-toast-font-weight, 400);
+		font-size: var(--as-toast-font-size, 1em);
 		padding: var(--as-toast-padding, 1em);
-		margin-top: 1em;
-		min-width: 300px;
-		max-width: calc(100vw - 2em);
+		margin-top: var(--as-toast-margin-top, 1em);
+		min-width: var(--as-toast-min-width, 300px);
+		max-width: var(--as-toast-max-width, calc(100vw - 2em));
 		border: var(--as-toast-border, 1px solid black);
 		border-radius: var(--as-toast-border-radius, 0.5em);
 		color: var(--as-toast-color, black);

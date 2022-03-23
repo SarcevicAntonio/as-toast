@@ -84,7 +84,13 @@ Or you can use <a href="https://svelte.dev/docs#style_props" target="_blank">--s
 --as-toast-bottom: 1em; /* Distance from bottom of screen */
 
 /* Toast */
+--as-toast-font-family: inherit
+--as-toast-font-weight: 400
+--as-toast-font-size: 1em
 --as-toast-padding: 1em;
+--as-toast-margin-top: 1em
+--as-toast-min-width: 300px
+--as-toast-max-width: calc(100vw - 2em)
 --as-toast-border: 1px solid black;
 --as-toast-border-radius: 0.5em;
 --as-toast-color: black;
