@@ -8,12 +8,13 @@ Intended as a replacement for `alert()`, though in a non-blocking fashion.
 
 ## Links
 
-- [Open quick start in Svelte REPL](https://svelte.dev/repl/ac1ac6289ab948b488fe2f17d122aaac?version=3.42.6)
-- [View a demo](https://as-toast.vercel.app/#demo)
-- [View the docs](https://as-toast.vercel.app/#docs)
-- [View Theme Ideas 🎨](https://as-toast.vercel.app/#themes)
-- [Vist package on npm](https://www.npmjs.com/package/as-toast)
-- [Visit project repo on GitHub](https://github.com/SarcevicAntonio/as-toast).
+- ✨ **Guide**: [Create a toast notification package with SvelteKit](https://www.sarcevic.dev/toasting-in-svelte)
+- [Quick start in Svelte REPL](https://svelte.dev/repl/ac1ac6289ab948b488fe2f17d122aaac?version=3.42.6)
+- [Demo](https://as-toast.vercel.app/#demo)
+- [Docs](https://as-toast.vercel.app/#docs)
+- [Theme Ideas 🎨](https://as-toast.vercel.app/#themes)
+- [npm](https://www.npmjs.com/package/as-toast)
+- [GitHub](https://github.com/SarcevicAntonio/as-toast)
 
 ## Quick Start
 
